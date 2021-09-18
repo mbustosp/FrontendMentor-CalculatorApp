@@ -22,7 +22,68 @@
 
   // Text
   --text-opaque: #{$color-very-dark-grayish-blue};
+  --text-result: #{$color-white};
   --text-clear: #{$color-white};
 
   --keypad-number-font-size: 32px;
 }
+
+
+.theme-2 {
+
+  // Backgrounds
+  --main-background: #{$color-light-gray};
+  --toggle-background: #{$color-grayish-red};
+  --keypad-background: #{$color-grayish-red};
+  --screen-background: #{$color-very-light-gray};
+
+  // Primary key
+  --primary-key-background: #{$color-dark-moderate-cyan};
+  --primary-key-shadow: #{$color-very-dark-cyan};
+
+  // Secondary key
+  --secondary-key-background: #{$color-orange};
+  --secondary-key-shadow: #{$color-dark-orange};
+
+  // Important key
+  --important-key-background: #{$color-light-grayish-yellow};
+  --important-key-shadow: #{$color-light-grayish-orange};
+
+  // Text
+  --text-opaque: #{$color-very-dark-grayish-yellow};
+  --text-result: #{$color-white};
+  --text-clear: #{$color-white};
+
+  --keypad-number-font-size: 32px;
+
+}
+
+.theme-3 {
+
+  // Backgrounds
+  --main-background: #{$color-very-dark-violet};
+  --toggle-background: #{$color-very-dark-violet-2};
+  --keypad-background: #{$color-very-dark-violet-2};
+  --screen-background: #{$color-very-dark-violet-2};
+
+  // Primary key
+  --primary-key-background: #{$color-dark-violet};
+  --primary-key-shadow: #{$color-vivid-magenta};
+
+  // Secondary key
+  --secondary-key-background: #{$color-pure-cyan};
+  --secondary-key-shadow: #{$color-soft-cyan};
+
+  // Important key
+  --important-key-background: #{$color-dark-violet};
+  --important-key-shadow: #{$color-dark-magenta};
+
+  // Text
+  --text-opaque: #{$color-very-dark-grayish-yellow};
+  --text-result: #{$color-very-dark-blue};
+  --text-clear: #{$color-white};
+
+  --keypad-number-font-size: 32px;
+
+}
+

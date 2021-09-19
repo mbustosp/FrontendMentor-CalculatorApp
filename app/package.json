@@ -21,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:unit": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
     "lint:styles": "stylelint \"**/*.scss\"",
     "storybook": "start-storybook -p 6006 -s public",
@@ -68,7 +69,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run lint:styles && npm test"
+      "pre-push": "npm run lint:styles && npm run test:unit"
     }
   }
 }
